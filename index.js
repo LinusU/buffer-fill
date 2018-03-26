@@ -5,7 +5,7 @@ var hasFullSupport = (function () {
       return false
     }
 
-    var buf = new Buffer(4)
+    var buf = Buffer.alloc ? Buffer.alloc(4) : new Buffer(4)
 
     buf.fill('ab', 'ucs2')
 
