@@ -10,7 +10,7 @@
     "test": "standard && node test"
   },
   "devDependencies": {
-    "buffer-alloc-unsafe": "^0.1.0",
+    "buffer-alloc-unsafe": "^1.1.0",
     "standard": "^7.1.2"
   }
 }
